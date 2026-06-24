@@ -43,8 +43,8 @@ project/
 
 ### 1. 克隆仓库
 ```bash
-git clone https://github.com/cai7cai/AI-Chat-A-simple-small-AI-application-project-.git
-cd AI-Chat-A-simple-small-AI-application-project-
+git clone https://github.com/cai7cai/AI-Chat.git
+cd AI-Chat
 ```
 
 ### 2. 安装依赖
