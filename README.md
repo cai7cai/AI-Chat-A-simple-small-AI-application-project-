@@ -27,8 +27,8 @@
 🚀 安装与运行
 1. 克隆仓库
 bash
-git clone https://github.com/your-username/ai-chat.git
-cd ai-chat
+git clone 
+cd 
 2. 安装依赖
 bash
 pip install streamlit openai
