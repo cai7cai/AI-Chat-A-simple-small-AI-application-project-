@@ -1,6 +1,7 @@
 # 👽️ AI Chat – AI 聊天助手
 
 一个基于 **Streamlit** 和 **Ollama** 本地大模型的轻量级聊天应用，模拟温柔贴心的好友，提供自然、亲切的对话体验。
+<img width="2864" height="1624" alt="image" src="https://github.com/user-attachments/assets/4b38d811-5fcc-41ac-8286-b60879a594dd" />
 
 ---
 
