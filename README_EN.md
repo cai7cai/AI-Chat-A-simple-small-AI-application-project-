@@ -1,6 +1,7 @@
 # 👽️ AI Chat – AI Chat Assistant
 
 A lightweight chat application based on **Streamlit** and **Ollama** local large language models, simulating a warm and caring best friend to provide natural and friendly conversations.
+<img width="2858" height="1624" alt="image" src="https://github.com/user-attachments/assets/138bbd02-a98a-4748-aca0-a9289ad3e7b7" />
 
 ---
 
