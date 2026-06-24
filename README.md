@@ -26,9 +26,9 @@
 
 🚀 安装与运行
 1. 克隆仓库
-bash
+bash:
 git clone 
-cd 
+
 2. 安装依赖
 bash
 pip install streamlit openai
