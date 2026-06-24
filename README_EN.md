@@ -1,4 +1,3 @@
-```markdown
 # 👽️ AI Chat – AI Chat Assistant
 
 A lightweight chat application based on **Streamlit** and **Ollama** local large language models, simulating a warm and caring best friend to provide natural and friendly conversations.
@@ -43,7 +42,8 @@ project/
 
 ### 1. Clone the repository
 ```bash
-git clone url
+git clone https://github.com/cai7cai/AI-Chat-A-simple-small-AI-application-project-.git
+cd AI-Chat-A-simple-small-AI-application-project-
 ```
 
 ### 2. Install dependencies
@@ -108,4 +108,3 @@ For questions, please open an issue on GitHub, or feel free to fork and modify t
 ---
 
 **Enjoy your chat with AI Friend！🌷**
-```
