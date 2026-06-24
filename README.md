@@ -24,25 +24,27 @@
 - `logo.png` – 应用 Logo（可选）
 - `sessions/` – 自动生成，存放会话 JSON 文件
 
----
-### 3. 安装依赖
-```bash
+🚀 安装与运行
+1. 克隆仓库
+bash
+git clone https://github.com/your-username/ai-chat.git
+cd ai-chat
+2. 安装依赖
+bash
 pip install streamlit openai
-```
+3. 安装并启动 Ollama
+下载 Ollama 并安装。
 
-### 4. 安装并启动 Ollama
-- 下载 [Ollama](https://ollama.com/) 并安装。
-- 拉取模型（示例使用 `qwen2.5:1.5b`）：
-  ```bash
-  ollama pull qwen2.5:1.5b
-  ```
-- 确保 Ollama 服务运行中（默认 `http://localhost:11434`）。
+拉取模型（示例使用 qwen2.5:1.5b）：
 
-### 5. 运行应用
-```bash
+bash
+ollama pull qwen2.5:1.5b
+确保 Ollama 服务运行中（默认 http://localhost:11434）。
+
+4. 运行应用
+bash
 streamlit run app.py
-```
-浏览器将自动打开 `http://localhost:8501`。
+浏览器将自动打开 http://localhost:8501。
 
 ---
 
