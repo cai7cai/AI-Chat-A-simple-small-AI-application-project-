@@ -17,13 +17,12 @@
 - **语言**：Python 3.9+
 - **数据存储**：JSON 文件（`sessions/` 目录）
 
-## 📁 文件结构
-project/
-├── app.py                # 主程序（UI 布局、交互逻辑）
-├── session_utils.py      # 会话管理（创建、保存、加载、删除）
-├── config.py             # 系统提示模板（system_prompt）
-├── logo.png              # 应用 Logo（可选）
-└── sessions/             # 自动生成，存放会话 JSON 文件
+## 📁 文件结构project
+- `app.py` – 主程序（UI布局、交互逻辑）
+- `session_utils.py` – 会话管理（创建、保存、加载、删除）
+- `config.py` – 系统提示模板（system_prompt）
+- `logo.png` – 应用 Logo（可选）
+- `sessions/` – 自动生成，存放会话 JSON 文件
 
 ---
 ### 3. 安装依赖
