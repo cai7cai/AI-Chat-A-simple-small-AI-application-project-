@@ -24,23 +24,8 @@ project/
 ├── config.py             # 系统提示模板（system_prompt）
 ├── logo.png              # 应用 Logo（可选）
 └── sessions/             # 自动生成，存放会话 JSON 文件
+
 ---
-
-## 🚀 安装与运行
-### 1. 克隆仓库
-```bash
-git clone https://github.com/your-username/ai-chat.git
-cd ai-chat
-```
-
-### 2. 创建并激活虚拟环境（推荐）
-```bash
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-# 或
-venv\Scripts\activate         # Windows
-```
-
 ### 3. 安装依赖
 ```bash
 pip install streamlit openai
@@ -72,7 +57,6 @@ streamlit run app.py
   - 点击会话旁的 ❌ 按钮可删除该会话。
 - **数据存储**：所有会话以 JSON 格式保存在 `sessions/` 文件夹中，便于备份或迁移。
 
----
 
 ## ⚙️ 自定义与扩展
 
@@ -80,32 +64,18 @@ streamlit run app.py
 - **调整系统提示**：编辑 `config.py` 中的 `system_prompt`，改变 AI 人设或对话规则。
 - **更换 Logo**：将 `logo.png` 替换为自己的图片，或注释掉 `st.logo()` 行。
 
----
-
-## ⚠️ 注意事项
+⚠️ 注意事项
 
 - **必须使用 `streamlit run` 启动**，不要直接用 `python app.py`，否则会因缺少 Streamlit 上下文而报错。
 - 确保 Ollama 服务在运行，且 `base_url` 地址正确（默认 `http://localhost:11434/v1`）。
 - 若会话加载出现错误，可能是旧版本遗留的 `nick_name` 字段问题，本版本已兼容处理。
 
----
-
-## 📄 License
-
-MIT License – 自由使用、修改和分发。
-
----
-
 ## 🤝 贡献
-
-欢迎提交 Issue 或 Pull Request，帮助改进项目！
-
----
+欢迎提交 Issue 或 Pull Request，帮助优化项目，提升为复杂高级大项目！
 
 ## 📧 联系
-
 如有问题，请通过 GitHub Issues 联系，或直接 Fork 本项目进行修改。
 
 ---
 
-**Enjoy your chat with AI闺蜜！🌷**
+**Enjoy your chat with AI Friend！🌷**
